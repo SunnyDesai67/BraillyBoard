@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="100"
+    >
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="90"
+        android:background="#ffffff"
+        >
+
+
+
+
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout">
+
+
+        <ImageView
+            android:id="@+id/iv1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="left"
+            android:src="@drawable/one" />
+
+        <ImageView
+            android:id="@+id/iv2"
+            android:layout_width="100dp"
+            android:layout_height="116dp"
+            android:src="@drawable/two"
+            />
+        <ImageView
+            android:id="@+id/iv3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/three"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_alignTop="@+id/linearLayout"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <ImageView
+            android:id="@+id/iv4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/four" />
+
+        <ImageView
+            android:id="@+id/iv5"
+            android:layout_width="100dp"
+            android:layout_height="117dp"
+            android:src="@drawable/five" />
+
+        <ImageView
+            android:id="@+id/iv6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/six" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:background="@color/White"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/num"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="123"
+            android:textColor="#000000" />
+
+            android:id="@+id/cap"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:text="123"
+            android:textColor="#000000"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/num"
+            android:layout_toEndOf="@+id/num" />
+
+        <ImageButton
+            android:id="@+id/space"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/spac"
+            android:text="space" />
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/back" />
+
+
+    </RelativeLayout>
+</LinearLayout>
