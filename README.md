@@ -24,7 +24,7 @@ also check whether the typed alphabet is correct or not.
 
 
 
-###Screenshot
+Screenshots
 
 Image:
 
@@ -38,4 +38,4 @@ Image:
 ------------
 
 
-#####Google Play : https://play.google.com/store/apps/details?id=com.vish.taps.mykeyboard
+Google Play : https://play.google.com/store/apps/details?id=com.vish.taps.mykeyboard
