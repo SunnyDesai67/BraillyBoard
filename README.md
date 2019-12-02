@@ -26,7 +26,6 @@ also check whether the typed alphabet is correct or not.
 
 Screenshots
 
-Image:
 
 ![](https://lh3.googleusercontent.com/ThctI1oYW4jQlogUpCtqNuu75L70iz3fbvxaB7R4fJv8SC1Y1ZF1NSa75IBToSqrkQkU=w720-h310-rw)
 
